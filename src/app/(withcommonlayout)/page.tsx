@@ -9,8 +9,8 @@ import { GithubIcon } from "@/src/components/icons";
 
 export default function Home() {
   return (
-    <section className="flex flex-col items-center justify-center gap-4 py-8 md:py-10">
+    <div className="h-[calc(100vh-64px)] bg-[url('/glass.jpg')] bg-cover bg-center">
       <h1>Found X</h1>
-    </section>
+    </div>
   );
 }
