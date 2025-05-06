@@ -16,6 +16,14 @@ export const siteConfig = {
       label: "Found Items",
       href: "/found-items",
     },
+    {
+      label: "With Parallel",
+      href: "/parallel",
+    },
+    {
+      label: "Test",
+      href: "/parallel/test",
+    },
   ],
   navMenuItems: [
     {
