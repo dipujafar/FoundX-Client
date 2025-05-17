@@ -6,6 +6,8 @@ import { getResentPosts } from "@/src/services/recentPosts";
 const RecentPosts = async () => {
   const { data: posts } = await getResentPosts();
 
+  console.log(posts);
+
   return (
     <Container>
       <div className="lg:my-8 my-4">
